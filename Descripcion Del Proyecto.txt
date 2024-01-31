@@ -1,0 +1,21 @@
+Ejercicio De tareas Diarias 
+Realizado por lenguaje =  java 
+Framework : Springboot
+Boostrap :  manejo de framework para el diseño de plataformas de código abierto.
+usar libreria archivo POI: para realizar descarga en archivo tipo excel 
+
+usar thymeleaf 
+Descripcion del Ejercicio 
+se tiene que realizar el ingreso de tareas diarias que tenga titulo, descripcion de la tarea y un estado de esta tarea 
+estado pendiente y cumplido, en la cual cuando este en este estado pendiente esta se puede modificar y si esta en estado 
+cumplido esta misma tarea nos reflejara en la vista web solamente tengamos el derecho de poder eliminarlo. 
+
+para agregar tareas cree un enlace apartado que nos redirija a agregar tarea y para modificar use una ventana modal 
+dentro de la lista reflejada por cada estado pendiente estara el boton modificar y se abrira la ventana modal 
+atravez de Jquery la informacion de titulo, descripcion y estado, quede en los inputs de la ventana modal y esta misma llame 
+al controlador tipo REST-JSON para realizar la modificacion del objeto Tarea 
+
+cree un controlador y capa servicio aparte para generar y descargar archivo excel.
+
+¡ Gracias por ver mi proyecto y estare atento a tu opinion gracias !
+ 
